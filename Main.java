@@ -1,85 +1,85 @@
 public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello Java"); //hello Java
+    public static void main(String[] args) {
+        System.out.println("Hello Java"); //hello Java
 
-    // VARIABLES
+        // VARIABLES
 
-    /////  STRING 
-    //  https://www.w3schools.com/java/java_ref_string.asp  (38)
-    //  String - stores text, such as "Hello". String values are surrounded by double quotes
+        /////  STRING 
+        //  https://www.w3schools.com/java/java_ref_string.asp  (38)
+        //  String - stores text, such as "Hello". String values are surrounded by double quotes
 
-    final String name = "John";  // final as const
-    String res = "Result: ";
-    String con = "Convert:";
-    System.out.println(res.concat(name));
+        final String name = "John";  // final as const
+        String res = "Result: ";
+        String con = "Convert:";
+        System.out.println(res.concat(name));
 
-    /////  INT
-    //  int - stores integers (whole numbers), without decimals, such as 123 or -123
+        /////  INT
+        //  int - stores integers (whole numbers), without decimals, such as 123 or -123
 
-    // int year = 1994;
-    // System.out.println(year);
-    
-    // int x,y,z;
-    byte x,y,z;
-    x = y = z = 2;
-    System.out.println( x + y * z); // result 6 (2 + 4) correct
-    //  System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
-    /*  System.out.print("result:");
-        System.out.print( x + y * z);  */ // RESULT 61.8??? O.o
-    
-    // increment
+        // int year = 1994;
+        // System.out.println(year);
+        
+        // int x,y,z;
+        byte x,y,z;
+        x = y = z = 2;
+        System.out.println( x + y * z); // result 6 (2 + 4) correct
+        //  System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
+        /*  System.out.print("result:");
+            System.out.print( x + y * z);  */ // RESULT 61.8??? O.o
+        
+        // increment
 
-    ++x;    // now x = 3
-    x += 5; // now x = 8
-    --x; // now x = 7
-    System.out.println( x );
+        ++x;    // now x = 3
+        x += 5; // now x = 8
+        --x; // now x = 7
+        System.out.println( x );
 
-    /////  FLOAT and DOUBLE 
-    //  float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+        /////  FLOAT and DOUBLE 
+        //  float - stores floating point numbers, with decimals, such as 19.99 or -19.99
 
-    float f1 = 35e3f; //   with "e" or "E" you can use 10*n   //  int f2 = 35e3; -> error
-    double d1 = 12d / -1E4d; //12 / 10000       --- decimal is more accurate ---
-    System.out.println(f1); //result: 35000.0
-    System.out.println(d1); //result: -0.0012  
+        float f1 = 35e3f; //   with "e" or "E" you can use 10*n   //  int f2 = 35e3; -> error
+        double d1 = 12d / -1E4d; //12 / 10000       --- decimal is more accurate ---
+        System.out.println(f1); //result: 35000.0
+        System.out.println(d1); //result: -0.0012  
 
-    // CASTING
-    System.out.println(con);
-    double myDouble = 9.78d;
-    System.out.println(myDouble);
-    // Narrowing Casting is manualy 
-    int myInt = (int)myDouble; 
-    myDouble = (int)myDouble; // not total convert 
-    System.out.println(myDouble);
-    System.out.println(myInt);
-    // Widening Casting is automatically
-    int myInt2 = 9;
-    double myDouble2 = myInt2; // total convert - you can whrite without (double) because: double -> 8byte vs int -> 4byte
-    System.out.println(myDouble2);
+        // CASTING
+        System.out.println(con);
+        double myDouble = 9.78d;
+        System.out.println(myDouble);
+        // Narrowing Casting is manualy 
+        int myInt = (int)myDouble; 
+        myDouble = (int)myDouble; // not total convert 
+        System.out.println(myDouble);
+        System.out.println(myInt);
+        // Widening Casting is automatically
+        int myInt2 = 9;
+        double myDouble2 = myInt2; // total convert - you can whrite without (double) because: double -> 8byte vs int -> 4byte
+        System.out.println(myDouble2);
 
-    /*
-    Widening Casting (automatically) - converting a smaller type to a larger type size
-    byte -> short -> char -> int -> long -> float -> double
+        /*
+        Widening Casting (automatically) - converting a smaller type to a larger type size
+        byte -> short -> char -> int -> long -> float -> double
 
-    Narrowing Casting (manually) - converting a larger type to a smaller size type
-    double -> float -> long -> int -> char -> short -> byte
-    */
+        Narrowing Casting (manually) - converting a larger type to a smaller size type
+        double -> float -> long -> int -> char -> short -> byte
+        */
 
-    ///// CHAR
-    //  char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+        ///// CHAR
+        //  char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 
-    //char myLetter = 'Dc'; will generate error
-    char myLetter = 'H';
-    System.out.println(myLetter);
-    // FOR ASCI: https://www.w3schools.com/charsets/ref_html_ascii.asp
-    
-    ///// BOOLEAN
-    //  boolean - stores values with two states: true or false
+        //char myLetter = 'Dc'; will generate error
+        char myLetter = 'H';
+        System.out.println(myLetter);
+        // FOR ASCI: https://www.w3schools.com/charsets/ref_html_ascii.asp
+        
+        ///// BOOLEAN
+        //  boolean - stores values with two states: true or false
 
-    boolean myBool = false;
-    myBool = true;
-    System.out.println(myBool);
-  }
-}
+        boolean myBool = false;
+        myBool = true;
+        System.out.println(myBool);
+    } 
+}   
 
 /* 
 // PRIMITIVE DATA TYPES
