@@ -41,10 +41,15 @@ public class Main {
     System.out.println(con);
     double myDouble = 9.78d;
     System.out.println(myDouble);
-    int myInt = (int)myDouble;
-    myDouble = (int)myDouble; // not total convert
+    // Narrowing Casting is manualy 
+    int myInt = (int)myDouble; 
+    myDouble = (int)myDouble; // not total convert 
     System.out.println(myDouble);
     System.out.println(myInt);
+    // Widening Casting is automatically
+    int myInt2 = 9;
+    double myDouble2 = myInt2; // total convert - you can whrite without (double) because: double -> 8byte vs int -> 4byte
+    System.out.println(myDouble2);
 
     //  char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 
