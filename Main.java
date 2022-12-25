@@ -15,9 +15,16 @@ public class Main {
 
     //  int - stores integers (whole numbers), without decimals, such as 123 or -123
 
-    int year = 1994;
-    int x=1,y=1,z=1;
-    System.out.println(year * x*y*z);
+    // int year = 1994;
+    // System.out.println(year);
+    
+    int x,y,z;
+    x = y = z = 2;
+    //   System.out.println( x + y * z); // result 6 (2 + 4) correct
+    //   System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
+    System.out.print("result:");
+    System.out.print( x + y * z);  
+
 
     //  float - stores floating point numbers, with decimals, such as 19.99 or -19.99
 
