@@ -7,6 +7,7 @@ public class Main {
     //  String - stores text, such as "Hello". String values are surrounded by double quotes
 
     final String name = "John";  // final as const
+    String con = "Convert:";
     System.out.println(name);
 
     //  int - stores integers (whole numbers), without decimals, such as 123 or -123
@@ -25,8 +26,19 @@ public class Main {
 
     //  float - stores floating point numbers, with decimals, such as 19.99 or -19.99
 
-    float height = 1.80f;
-    System.out.println(height);
+    float f1 = 35e3f; //   with "e" or "E" you can use 10*n   //  int f2 = 35e3; -> error
+    double d1 = 12d / -1E4d; //12 / 10000       --- decimal is more accurate ---
+    System.out.println(f1); //result: 35000.0
+    System.out.println(d1); //result: -0.0012  
+
+    // convert number 
+    System.out.println(con);
+    double myDouble = 9.78d;
+    System.out.println(myDouble);
+    int myInt = (int)myDouble;
+    myDouble = (int)myDouble; // not total convert
+    System.out.println(myDouble);
+    System.out.println(myInt);
 
     //  char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 
@@ -53,7 +65,7 @@ public class Main {
 // int	    ->  4 bytes	Stores whole numbers from -2'147'483'648 to 2'147'483'647
 // long	    ->  8 bytes	Stores whole numbers from -9'223'372'036'854'775'808 to 9'223'372'036'854'775'807 WANT L final
 // float	->  4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits WANT f final
-// double	->  8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+// double	->  8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits WANT d final
 // boolean	->  1 bit	Stores true or false values
 // char	    ->  2 bytes	Stores a single character/letter or ASCII values
 */
