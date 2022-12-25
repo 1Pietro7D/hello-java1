@@ -4,12 +4,14 @@ public class Main {
 
     // VARIABLES
 
-    /////  STRING
+    /////  STRING 
+    //  https://www.w3schools.com/java/java_ref_string.asp
     //  String - stores text, such as "Hello". String values are surrounded by double quotes
 
     final String name = "John";  // final as const
+    String res = "Result: ";
     String con = "Convert:";
-    System.out.println(name);
+    System.out.println(res.concat(name));
 
     /////  INT
     //  int - stores integers (whole numbers), without decimals, such as 123 or -123
