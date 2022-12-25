@@ -14,7 +14,8 @@ public class Main {
     // int year = 1994;
     // System.out.println(year);
     
-    int x,y,z;
+    // int x,y,z;
+    byte x,y,z;
     x = y = z = 2;
     //   System.out.println( x + y * z); // result 6 (2 + 4) correct
     //   System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
@@ -48,10 +49,10 @@ public class Main {
 // There are eight primitive data types in Java:
 //
 // byte	    ->  1 byte	Stores whole numbers from -128 to 127
-// short	->  2 bytes	Stores whole numbers from -32,768 to 32,767
-// int	    ->  4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
-// long	    ->  8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-// float	->  4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+// short	->  2 bytes	Stores whole numbers from -32'768 to 32'767
+// int	    ->  4 bytes	Stores whole numbers from -2'147'483'648 to 2'147'483'647
+// long	    ->  8 bytes	Stores whole numbers from -9'223'372'036'854'775'808 to 9'223'372'036'854'775'807 WANT L final
+// float	->  4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits WANT f final
 // double	->  8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
 // boolean	->  1 bit	Stores true or false values
 // char	    ->  2 bytes	Stores a single character/letter or ASCII values
