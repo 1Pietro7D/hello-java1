@@ -5,7 +5,7 @@ public class Main {
     // VARIABLES
 
     /////  STRING 
-    //  https://www.w3schools.com/java/java_ref_string.asp
+    //  https://www.w3schools.com/java/java_ref_string.asp  (38)
     //  String - stores text, such as "Hello". String values are surrounded by double quotes
 
     final String name = "John";  // final as const
