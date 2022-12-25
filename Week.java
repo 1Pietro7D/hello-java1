@@ -1,7 +1,7 @@
 public class Week {
     public static void main(String[] args) {
-        int day = 0;
-        switch (day) {
+        int num = 0;
+        switch (num) {
             case 1:
                 System.out.println("Monday");
                 break;
@@ -25,6 +25,11 @@ public class Week {
                 break;
             default:
                 System.out.println("Sunday :P");
+        }
+
+        String[] week = {"Monday", "Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday"};
+        for (String day : week) {
+          System.out.println(day);
         }
     }
 
