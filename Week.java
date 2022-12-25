@@ -31,6 +31,13 @@ public class Week {
         for (String day : week) {
           System.out.println(day);
         }
+
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                continue;   // continue jump value 4
+            }
+            System.out.println(i);
+          }
     }
 
 }
