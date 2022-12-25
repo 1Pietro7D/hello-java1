@@ -22,7 +22,13 @@ public class Main {
     //  System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
     /*  System.out.print("result:");
         System.out.print( x + y * z);  */ // RESULT 61.8??? O.o
+    
+    // increment
 
+    ++x;    // now x = 3
+    x += 5; // now x = 8
+    --x; // now x = 7
+    System.out.println( x );
 
     //  float - stores floating point numbers, with decimals, such as 19.99 or -19.99
 
@@ -45,6 +51,7 @@ public class Main {
     //char myLetter = 'Dc'; will generate error
     char myLetter = 'H';
     System.out.println(myLetter);
+    // FOR ASCI: https://www.w3schools.com/charsets/ref_html_ascii.asp
 
     //  boolean - stores values with two states: true or false
 
