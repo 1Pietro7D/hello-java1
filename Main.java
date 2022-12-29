@@ -1,7 +1,13 @@
 public class Main {
+    public static final int z = 3;
+    public final int z1 = 4;
+    static int z2 = 1;
+    public int z0 = 0;
+
+
     public static void main(String[] args) {
         System.out.println("Hello Java"); //hello Java
-
+        System.out.println(z);
         // VARIABLES
 
         /////  STRING 
@@ -22,6 +28,8 @@ public class Main {
         // int x,y,z;
         byte x,y,z;
         x = y = z = 2;
+        System.out.println(z);
+        System.out.println(Main.z);
         System.out.println( x + y * z); // result 6 (2 + 4) correct
         //  System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
         /*  System.out.print("result:");
@@ -78,7 +86,9 @@ public class Main {
         boolean myBool = false;
         myBool = true;
         System.out.println(myBool);
-    } 
+    }
+
+    // public int z; 
 }   
 
 /* 
