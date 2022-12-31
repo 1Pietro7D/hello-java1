@@ -1,8 +1,14 @@
 public class Meth {
-    static void myPrint(String stamp) {
+    static void myPrint(String stamp) { // static
         // code to be executed
         System.out.println(stamp);
     }
+
+    public void myPrint2(String stamp) { // public
+        // code to be executed
+        System.out.println(stamp);
+    }
+
     static void myPrintNum(int stamp) {
         // code to be executed
         System.out.println(stamp);
