@@ -14,9 +14,9 @@ public class ObjectClass {
   
 
   public static void main(String[] args) {
-    ObjectClass myObj_x = new ObjectClass();
+    ObjectClass myObj_x = new ObjectClass(); // Create an object of class ObjectClass (This will call the constructor)
     ObjectClass myObj_y = new ObjectClass();
-    Main myObj_z1 = new Main();
+    Main myObj_z1 = new Main(); // Create an object of class Main (This will call the constructor)
     System.out.println(myObj_x.x);
     System.out.println(myObj_y.y);
     System.out.println(Main.z); // public/static
