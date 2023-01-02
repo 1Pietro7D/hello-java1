@@ -24,7 +24,8 @@ public class Main {
 
         // int year = 1994;
         // System.out.println(year);
-        
+        Integer number = 100;
+        System.out.println(number);
         // int x,y,z;
         byte x,y,z;
         x = y = z = 2;
@@ -86,6 +87,12 @@ public class Main {
         boolean myBool = false;
         myBool = true;
         System.out.println(myBool);
+
+        Boolean myWrapperClass = true;
+        System.out.println(myBool == myWrapperClass);
+        
+
+
     }
 
     // public int z; 
