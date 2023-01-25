@@ -33,8 +33,9 @@ public class Main {
         System.out.println(Main.z);
         System.out.println( x + y * z); // result 6 (2 + 4) correct
         //  System.out.println("ris:" + x + y * z);  // result 24 ("2" + 4)
-        /*  System.out.print("result:");
-            System.out.print( x + y * z);  */ // RESULT 61.8??? O.o
+        System.out.print("result:");
+        System.out.print( x + y * z); // RESULT 6 correct
+        System.out.println();
         
         // increment
 
